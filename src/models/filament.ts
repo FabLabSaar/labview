@@ -1,13 +1,11 @@
-import { v4 } from 'uuid';
-
 class Filament {
-    id: string;
+    id: number;
+    name: string;
     type: FilamentType;
     manufacturer: string;
     amount: [number, number];
 
     constructor() {
-        this.id = v4();
     }
 }
 
