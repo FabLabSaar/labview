@@ -6,6 +6,11 @@ class Filament {
     amount: [number, number];
 
     constructor() {
+        this.id = 0;
+        this.name = "";
+        this.type = FilamentType.PLA;
+        this.manufacturer = "";
+        this.amount = [0,1000];
     }
 }
 
